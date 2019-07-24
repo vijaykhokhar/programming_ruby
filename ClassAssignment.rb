@@ -23,11 +23,9 @@ class Dog < Animal
 	def initialize(name)
 		@name = name
 	end
-
 	#def to_s
 	#	puts "name: #{@name}"
 	#end
-
 	def bark
 		puts "dog is barking"
 	end
