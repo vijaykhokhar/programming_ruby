@@ -4,7 +4,7 @@ module Speak
 	end
 end
 
-class Animal
+class Animal  #super class
 	def eat
 		puts	"eating"
 	end
@@ -23,6 +23,7 @@ class Dog < Animal
 	def initialize(name)
 		@name = name
 	end
+	
 	#def to_s
 	#	puts "name: #{@name}"
 	#end
