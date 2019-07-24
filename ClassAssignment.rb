@@ -48,7 +48,7 @@ class Dog < Animal
 	pro = lambda {puts "This was an example on Animal class"}
 	pro.call
 end
-
+#my inputs
 #d = Dog.new('tiger')
 #d.eat
 #d.bark
