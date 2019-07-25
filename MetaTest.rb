@@ -9,7 +9,6 @@ singleton = class << animal
 	end
 self
 end
-
 #animal.speak
 #animal.lie
 #puts "Singleton class objects is #{singleton}"
